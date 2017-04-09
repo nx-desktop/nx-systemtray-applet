@@ -18,6 +18,7 @@
  */
 
 import QtQuick 2.1
+import QtQuick.Window 2.2
 import QtQuick.Layouts 1.1
 import org.kde.plasma.core 2.0 as PlasmaCore
 import org.kde.plasma.components 2.0 as PlasmaComponents
@@ -27,7 +28,7 @@ Item {
     id: expandedRepresentation
 
     Layout.minimumWidth: units.gridUnit * 24
-    Layout.minimumHeight: units.gridUnit * 40
+    Layout.minimumHeight: Screen.desktopAvailableHeight
     Layout.preferredWidth: Layout.minimumWidth
     Layout.preferredHeight: Layout.minimumHeight * 1.5
 
