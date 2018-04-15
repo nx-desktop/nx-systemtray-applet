@@ -1,0 +1,5 @@
+nomad-systemtray (1.0.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Alexis L?pez Zubieta <azubieta90@gmail.com>  Wed, 31 May 2017 17:03:46 -0500
