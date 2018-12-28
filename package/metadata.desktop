@@ -1,6 +1,6 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Nomad System Tray
+Name=Nx System Tray
 Icon=preferences-desktop-notification
 Type=Service
 X-KDE-ServiceTypes=Plasma/Applet,Plasma/Containment

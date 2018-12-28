@@ -1,11 +1,11 @@
-Source: nomad-systemtray
+Source: nx-systemtray
 Section: KDE
 Priority: optional
 Maintainer: Alexis L?pez Zubieta <azubieta90@gmail.com>
 Build-Depends: debhelper (>=9), cmake, extra-cmake-modules, libkf5i18n-dev, plasma-framework-dev, libkf5declarative-dev, qtdeclarative5-dev, qtbase5-dev, libkf5iconthemes-dev, libkf5xmlgui-dev, kio-dev, libkf5notifications-dev, libkf5kdelibs4support-dev, kdelibs5-dev 
 Standards-Version: 3.9.6
 
-Package: nomad-systemtray
+Package: nx-systemtray
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: System tray for Nomad Desktop
+Description: System tray for Nx Desktop

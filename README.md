@@ -1,4 +1,4 @@
-# Nomad Systemtray [![Build Status](https://travis-ci.org/nomad-desktop/nomad-systemtray.svg?branch=master)](https://travis-ci.org/nomad-desktop/nomad-systemtray)
+# Nx Systemtray [![Build Status](https://travis-ci.org/nx-desktop/nx-systemtray.svg?branch=master)](https://travis-ci.org/nx-desktop/nx-systemtray)
 
 This is the repository for the System tray used in Nitrux.
 
