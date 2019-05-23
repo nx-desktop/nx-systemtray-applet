@@ -1,4 +1,4 @@
-# Nx Systemtray [![Build Status](https://travis-ci.org/nx-desktop/nx-systemtray.svg?branch=master)](https://travis-ci.org/nx-desktop/nx-systemtray)
+# NX Systemtray [![Build Status](https://travis-ci.org/nx-desktop/nx-systemtray-applet.svg?branch=master)](https://travis-ci.org/nx-desktop/nx-systemtray-applet)
 
 This is the repository for the System tray used in Nitrux.
 
