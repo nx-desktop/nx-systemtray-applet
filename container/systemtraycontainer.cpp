@@ -80,7 +80,7 @@ void SystemTrayContainer::ensureSystrayExists()
     }
 
     if (!m_innerContainment) {
-        m_innerContainment = c->createContainment("org.nomad.private.systemtray", QVariantList() << "org.kde.plasma:force-create");
+        m_innerContainment = c->createContainment("org.nx.private.systemtray", QVariantList() << "org.kde.plasma:force-create");
         config().writeEntry("SystrayContainmentId", m_innerContainment->id());
     }
 

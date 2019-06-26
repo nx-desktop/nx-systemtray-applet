@@ -1,6 +1,6 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Nx System Tray
+Name=NX System Tray
 Icon=preferences-desktop-notification
 Type=Service
 X-KDE-ServiceTypes=Plasma/Applet,Plasma/Containment
@@ -9,7 +9,7 @@ X-Plasma-API=declarativeappletscript
 X-Plasma-MainScript=ui/main.qml
 X-KDE-PluginInfo-Author=Alexis López Zubieta
 X-KDE-PluginInfo-Email=azubieta90@gmail.com
-X-KDE-PluginInfo-Name=org.nomad.private.systemtray
+X-KDE-PluginInfo-Name=org.nx.private.systemtray
 X-KDE-PluginInfo-Version=1.0
 #X-KDE-PluginInfo-Website=http://plasma.kde.org/
 X-KDE-PluginInfo-Category=Windows and Tasks

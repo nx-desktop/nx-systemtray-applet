@@ -1,4 +1,4 @@
-project(nomad-systemtray)
+project(nx-systemtray-applet)
 
 
 set(PROJECT_VERSION "1.0")
@@ -31,9 +31,9 @@ find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS
 	
 find_package(KF5Notifications)	
 
-add_definitions(-DTRANSLATION_DOMAIN=\"plasma_applet_org.nomad.private.systemtray\")
+add_definitions(-DTRANSLATION_DOMAIN=\"plasma_applet_org.nx.private.systemtray\")
 
-plasma_install_package(package org.nomad.private.systemtray)
+plasma_install_package(package org.nx.private.systemtray)
 
 set(systemtray_SRCS
     systemtray.cpp
@@ -41,14 +41,14 @@ set(systemtray_SRCS
 
 ecm_qt_declare_logging_category(systemtray_SRCS HEADER debug.h
                                             IDENTIFIER SYSTEM_TRAY
-                                            CATEGORY_NAME nomad.systemtray
+                                            CATEGORY_NAME nx.systemtray
                                             DEFAULT_SEVERITY Info)
 
-add_library(org.nomad.private.systemtray MODULE ${systemtray_SRCS})
+add_library(org.nx.private.systemtray MODULE ${systemtray_SRCS})
 
-kcoreaddons_desktop_to_json(org.nomad.private.systemtray package/metadata.desktop)
+kcoreaddons_desktop_to_json(org.nx.private.systemtray package/metadata.desktop)
 
-target_link_libraries(org.nomad.private.systemtray
+target_link_libraries(org.nx.private.systemtray
                       Qt5::Gui
                       Qt5::Quick
                       KF5::Plasma
@@ -57,7 +57,7 @@ target_link_libraries(org.nomad.private.systemtray
                       KF5::XmlGui
                       KF5::I18n)
 
-install(TARGETS org.nomad.private.systemtray DESTINATION ${KDE_INSTALL_PLUGINDIR}/plasma/applets)
+install(TARGETS org.nx.private.systemtray DESTINATION ${KDE_INSTALL_PLUGINDIR}/plasma/applets)
 
 add_subdirectory(container)
 add_subdirectory(tests)
