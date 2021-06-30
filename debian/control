@@ -1,8 +1,8 @@
 Source: nx-systemtray-applet
-Section: KDE
+Section: kde
 Priority: optional
-Maintainer: Alexis L?pez Zubieta <azubieta90@gmail.com>
-Build-Depends: debhelper (>=9), cmake, extra-cmake-modules, libkf5i18n-dev, plasma-framework-dev, libkf5declarative-dev, qtdeclarative5-dev, qtbase5-dev, libkf5iconthemes-dev, libkf5xmlgui-dev, kio-dev, libkf5notifications-dev, libkf5kdelibs4support-dev, kdelibs5-dev 
+Maintainer: Alexis Lopez Zubieta <azubieta90@gmail.com>
+Build-Depends: debhelper (>=9), cmake, extra-cmake-modules, libkf5i18n-dev, libkf5plasma-dev, libkf5declarative-dev, qtdeclarative5-dev, qtbase5-dev, libkf5iconthemes-dev, libkf5xmlgui-dev, libkf5kio-dev, libkf5notifications-dev, libkf5kdelibs4support-dev, kdelibs5-dev 
 Standards-Version: 3.9.6
 
 Package: nx-systemtray-applet
