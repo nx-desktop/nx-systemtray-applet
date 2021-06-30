@@ -1,3 +1,9 @@
+nx-systemtray-applet (1.0.2) nitrux; urgency=medium
+
+  * Rebuild.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Wed, 30 Jun 2021 04:52:00 -0500
+
 nx-systemtray-applet (1.0.1) bionic; urgency=medium
 
   * Change package name.
@@ -6,6 +12,6 @@ nx-systemtray-applet (1.0.1) bionic; urgency=medium
 
 nx-systemtray (1.0.0-1) unstable; urgency=medium
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release.
 
  -- Alexis L?pez Zubieta <azubieta90@gmail.com>  Wed, 31 May 2017 17:03:46 -0500
