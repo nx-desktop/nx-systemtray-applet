@@ -1,3 +1,3 @@
 #!/bin/bash
-sed -i -- 's/X-KDE-PluginInfo-EnabledByDefault=false/X-KDE-PluginInfo-EnabledByDefault=true/g' /usr/share/kservices5/plasma-applet-org.kde.plasma.systemtray.desktop
+# sed -i -- 's/X-KDE-PluginInfo-EnabledByDefault=false/X-KDE-PluginInfo-EnabledByDefault=true/g' /usr/share/kservices5/plasma-applet-org.kde.plasma.systemtray.desktop
 
